@@ -63,6 +63,7 @@ body {
   }
   &:active {
     background-color: rgba(0, 186, 252, 0.6);
+    color: #ffffff;
   }
 }
 .container {
@@ -344,6 +345,8 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .frame-img {
   width: 12px;
