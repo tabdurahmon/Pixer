@@ -282,6 +282,100 @@ h1 {
 .div-item {
   height: 250px;
 }
+/* first pages finished */
+/* second pages start */
+
+.div-page {
+  width: 1100px;
+  margin-bottom: 72px;
+  margin-top: 56px;
+  gap: 16px;
+}
+.page-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+.page-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 800px;
+  height: 72px;
+  margin-left: 130px;
+}
+/* first page finished */
+.servises {
+  margin-left: 90px;
+}
+.sercises-list {
+  display: flex;
+  width: 804px;
+  height: 378px;
+  padding: 32px;
+  border-radius: 5px;
+  gap: 40px;
+  box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.12);
+}
+.frame {
+  width: 500px;
+  height: 314px;
+  gap: 16px;
+  margin-left: 40px;
+}
+.frame-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.frame-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.frame-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 16px;
+}
+.frame-img {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+}
+.frame-btn-list {
+  display: flex;
+  gap: 16px;
+}
+
+.frame-btn {
+  margin-top: 16px;
+}
+.frame-link {
+  margin-top: 25px;
+  text-decoration: underline;
+}
+.servises {
+  width: 1300px;
+  height: 2355px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgba(244, 244, 244, 1);
+  margin-left: auto;
+  margin-right: auto;
+}
+.sercises-list {
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*footer start */
 .footer {
