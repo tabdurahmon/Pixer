@@ -96,6 +96,9 @@ h1 {
 .sitenav-list {
   display: flex;
 }
+.sitenav-item {
+  position: relative;
+}
 .sitenav-link {
   padding: 16px;
   line-height: 24px;
@@ -117,6 +120,41 @@ h1 {
     outline-offset: 0px;
   }
 }
+.sitenav-list-inner {
+  background-color: #ffffff;
+  position: absolute;
+  width: 124px;
+  left: -13px;
+  transition: 0.4s;
+}
+.sitenav-item-inner {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+}
+.sitenav-link-inner {
+  display: inline-block;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  color: #000000;
+
+  &:hover {
+    background-color: #00bafc;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+
+  &:active {
+    background-color: #00bafc;
+    color: #ffffff;
+    opacity: 0.6;
+  }
+}
+.sitenav-item:hover .sitenav-list-inner {
+}
+
 .header-btn {
   font-weight: 700;
   font-size: 15px;
@@ -145,6 +183,13 @@ h1 {
   margin-top: 80px;
   margin-left: 172px;
   border-radius: 5px;
+}
+.hero-btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
 }
 
 .main-center {
@@ -283,6 +328,7 @@ h1 {
 .div-item {
   height: 250px;
 }
+
 /* first pages finished */
 /* second pages start */
 
